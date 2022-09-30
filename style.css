@@ -1,0 +1,21 @@
+body{
+    background-image: url(./assets/img/dcvwl8h-05d53db3-9022-4c0d-808b-672eea60db63.jpg);
+}
+
+.container{
+    height: 200px;
+    width: 550px;
+    display: flex;
+    margin: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(173, 91, 91);
+}
+#salida{
+    font-size: 50px;
+    text-align: center;
+}
+#fecha{
+    text-align: center;
+}
