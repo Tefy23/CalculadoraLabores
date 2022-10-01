@@ -2,7 +2,7 @@ body{
     background-image: url(./assets/img/dcvwl8h-05d53db3-9022-4c0d-808b-672eea60db63.jpg);
 }
 
-.container{
+/* .container{
     height: 200px;
     width: 550px;
     display: flex;
@@ -11,10 +11,11 @@ body{
     justify-content: center;
     align-items: center;
     border: 5px solid rgb(173, 91, 91);
-}
-#salida{
-    font-size: 50px;
+} */
+#resultado{
     text-align: center;
+    margin-left: 560px;
+    margin-top: 100px;
 }
 #fecha{
     text-align: center;

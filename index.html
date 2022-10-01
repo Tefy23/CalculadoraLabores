@@ -11,14 +11,23 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="container">
-        <div id="salida">
-            Lunes
+    <h1>Calendario laboral</h1>
+    <div class="container-sm">
+        <!-- Fechas -->
+        <div class="row">
+            <input id="inputDay" class="col border border-danger" month="day"></input>
+            <input id="inputMonth" class="col border border-danger"></input>
+            <input id="inputYear" class="col border border-danger"></input>            
         </div>
-        <input type="date" class="btn btn-danger btn-sm" id="fecha"></button>
-        <!-- <div id="fecha">
-            Fecha
-        </div> -->
+    </div>
+    <!-- Revisado -->
+    <div class="text-center">
+        <button id="revisar">¿Sera Laboral?</button>
+    </div>
+    <!-- Resultados -->
+    <div class="container-sm">
+        <input type="text" id="resultado">
+
     </div>
     <script src="./functions/functions.js"></script>
 </body>
